@@ -1,0 +1,16 @@
+current directory: /Users/ricardorei/Home/WMT-Metrics-task.github.io/vendor/bundle/ruby/2.3.0/gems/unf_ext-0.0.8/ext/unf_ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -I /Library/Ruby/Site/2.3.0 -r ./siteconf20220128-97629-x4zfhx.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /Users/ricardorei/Home/WMT-Metrics-task.github.io/vendor/bundle/ruby/2.3.0/gems/unf_ext-0.0.8/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/ricardorei/Home/WMT-Metrics-task.github.io/vendor/bundle/ruby/2.3.0/gems/unf_ext-0.0.8/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/ricardorei/Home/WMT-Metrics-task.github.io/vendor/bundle/ruby/2.3.0/gems/unf_ext-0.0.8/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20220128-97629-802ptb

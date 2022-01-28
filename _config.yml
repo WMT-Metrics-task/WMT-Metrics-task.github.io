@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            WMT Metrics Shared Task
+#tagline:          'A Jekyll theme'
+description:      'This shared task will examine automatic evaluation metrics for machine translation.'
+#url:              http://hyde.getpoole.com
+baseurl:          /
+
+#author:
+#  name:           'Mark Otto'
+#  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2022
+
+github:
+  repo:           https://github.com/WMT-Metrics-task/
