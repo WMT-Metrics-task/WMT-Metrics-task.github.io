@@ -44,8 +44,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item active" href="/">Home</a>
-
+      <a class="sidebar-nav-item active" href="/">Metrics Task</a>
       
 
       
@@ -55,18 +54,30 @@
         
       
         
-          
-            <a class="sidebar-nav-item" href="/about/">About</a>
-          
-        
       
         
-      
-        
+          
+            <a class="sidebar-nav-item" href="/subtasks/challenge/">Challenge Sets Subtask</a>
           
         
       
         
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/subtasks/mbr/">MBR Subtask</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/subtasks/qe/">QE Subtask</a>
           
         
       
@@ -90,9 +101,8 @@
   This shared task will examine automatic evaluation metrics for machine translation. We will provide you with MT system outputs along with source text and the human reference translations. We are looking for automatic metric scores for translations at the system-level, and segment-level. We will calculate the system-level, and segment-level correlations of your scores with human judgements.<br /><br />
 
   We invite submissions of <strong>reference-free metrics</strong> in addition to <strong>reference-based metrics</strong>.<br /><br />   
-
-  <strong>The seminars are open to the public.</strong><br />
-
+  
+  Have questions or suggestions? Feel free to <a href="mailto:wmt.metrics@gmail.com">Contact Us</a>!
 </p>
 
 <h2 id="metrics-task-important-dates">Metrics Task Important Dates</h2>
@@ -101,56 +111,63 @@
   <thead>
     <tr>
       <th> </th>
-      <th>Date</th>
+      <th style="text-align: center">Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>System outputs ready to download</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
     <tr>
       <td>Submission deadline for metrics task</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
     <tr>
       <td>Paper submission deadline to WMT</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
     <tr>
       <td>WMT Notification of acceptance</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
     <tr>
       <td>WMT Camera-ready deadline</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
     <tr>
       <td>Conference</td>
-      <td>TBA</td>
+      <td style="text-align: center">TBA</td>
     </tr>
   </tbody>
 </table>
 
 <h2 id="goals">Goals</h2>
+
 <p>The goals of the shared metrics task are:</p>
 
 <ul>
   <li>To achieve the strongest correlation with human judgement of translation quality over a diverse set of MT systems;</li>
   <li>To illustrate the suitability of an automatic evaluation metric as a surrogate for human evaluation;</li>
-  <li>To test robustness of metrics when evaluating domains other than news data</li>
+  <li>To test robustness of metrics when evaluating domains other than news data;</li>
   <li>To create high quality datasets for developing and evaluating metrics</li>
 </ul>
 
 <h2 id="task-description">Task Description</h2>
+
 <p>We will provide you with the source sentences, output of machine translation systems and reference translations.</p>
 
 <ol>
-  <li>Official results: Correlation with MQM scores on in-domain (news) and out-of-domain data at the sentence and system level.</li>
+  <li>Official results: Correlation with MQM scores at the sentence and system level.</li>
   <li>Secondary Evaluation: Correlation with official WMT Direct Assessment (DA) scores at the sentence and system level.</li>
-  <li>MBR: <strong>TBA</strong></li>
-  <li>Break the metrics: <strong>TBA</strong></li>
-  <li>QE-as-a-metric</li>
+</ol>
+
+<h3 id="subtasks">Subtasks:</h3>
+
+<ol>
+  <li><a href="./subtasks/qe/">QE as a Metric</a>: In this subtask participants have to score machine translation systems without access to reference translations</li>
+  <li><a href="./subtasks/challenge/">Challenge Sets</a>: While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail!</li>
+  <li><a href="./subtasks/mbr/">Minimum Bayes-Risk (MBR) Decoding</a>: <strong>TBA</strong></li>
 </ol>
 
 <h2 id="paper-describing-your-metric">Paper Describing Your Metric</h2>
@@ -165,6 +182,56 @@
 <h3 id="submission-format">Submission Format</h3>
 <p><strong>TBA</strong></p>
 
+<h2 id="organization">Organization:</h2>
+
+<ul>
+  <li>Markus Freitag, Google Research</li>
+  <li>Ricardo Rei, Unbabel and Instituto Superior Técnico</li>
+  <li>Nitika Mathur, University of Melbourne</li>
+  <li>Chi-kiu (Jackie) Lo, NRC Canada</li>
+  <li>George Foster, Google Research</li>
+  <li>Craig Stewart, Unbabel</li>
+  <li>Tom Kocmi, Microsoft Research</li>
+  <li>Arul Menezes, Microsoft Research</li>
+  <li>André Martins, Unbabel and Instituto Superior Técnico</li>
+</ul>
+
+<h2 id="sponsors">Sponsors</h2>
+
+<style>
+	.column {
+	  float: left;
+	  padding: 20px;
+	}
+	
+</style>
+
+<div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
+    <div style="position: relative; bottom: 0px;">
+	   <div class="column">
+	     <img src="/public/css/google.png" height="70px" width="auto" />
+	   </div>
+	   <div class="column">
+	     <img src="/public/css/unbabel.png" height="70px" width="auto" />
+	   </div>
+	   <div class="column">
+	     <img src="/public/css/microsoft.jpeg" height="70px" width="auto" />
+	   </div>
+	</div>
+
+<div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
+    <div style="position: relative; bottom: 0px;">
+	   <div class="column">
+	     <img src="/public/css/melbourne.png" height="70px" width="auto" />
+	   </div>
+	   <div class="column">
+	     <img src="/public/css/NRC-logo.png" height="70px" width="auto" />
+	   </div>
+	   <div class="column">
+	     <img src="/public/css/IST.png" height="70px" width="auto" />
+	   </div>
+	</div>
+</div></div>
 
     </div>
 
