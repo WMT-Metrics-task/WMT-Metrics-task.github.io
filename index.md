@@ -68,6 +68,7 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 - Nitika Mathur, University of Melbourne
 - Chi-kiu (Jackie) Lo, NRC Canada
 - George Foster, Google Research
+- Alon Lavie, Unbabel
 - Craig Stewart, Unbabel
 - Tom Kocmi, Microsoft Research
 - Arul Menezes, Microsoft Research
