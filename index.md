@@ -71,8 +71,8 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 - Alon Lavie, Unbabel
 - Craig Stewart, Unbabel
 - Tom Kocmi, Microsoft Research
-- Arul Menezes, Microsoft Research
 - André Martins, Unbabel and Instituto Superior Técnico
+- Eleftherios Avramidis, German Research Center for Artificial Intelligence (DFKI)
 
 ## Sponsors
 
@@ -106,5 +106,8 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 	   </div>
 	   <div class="column">
 	     <img src="/public/css/IST.png" height=70px width=auto>
+	   </div>
+	   <div class="column">
+	     <img src="/public/css/DFKI.jpeg" height=50px width=auto>
 	   </div>
 	</div>

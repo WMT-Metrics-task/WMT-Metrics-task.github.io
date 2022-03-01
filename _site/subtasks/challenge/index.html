@@ -105,9 +105,9 @@
 
 <p>Inspired by the <a href="https://bibinlp.umiacs.umd.edu/sharedtask.html">Build it, Break it: The Language Edition</a> we created a subtask where participants (<em>breakers</em>) are asked to build challenging examples that target specific phenomena currently not addresses by current. On top of that we also encourage paper submissions on Metrics analysis (for inspiration: <a href="https://aclanthology.org/2021.wmt-1.59/">A Fine-Grained Analysis of BERTScore</a>).</p>
 
-<p>This shares task will have the two following rounds:</p>
+<p>This shared task will have the two following rounds:</p>
 
-<p><strong>1) Breaking Round:</strong>  Participants (Breakers) will be given access to source sentences and two different human references that cthey can play around to create challenging examples for metrics (<em>constraint setting</em>). Alternatively, during this round participants can build challenge sets with their own data (<em>unconstraint setting</em>). They must send the resulting “challenge sets” to the organizers.</p>
+<p><strong>1) Breaking Round:</strong>  Participants (Breakers) will be given access to source sentences and two different human references that they can play around to create challenging examples for metrics. They must send the resulting “challenge sets” to the organizers.</p>
 
 <p><strong>2) Scoring Round:</strong> The challenge sets created by Breakers will be sent to all Metrics participants/Builders to score. Also, the organizers will score all the data with baseline metrics such as BLEU, chrF, BERTScore, COMET, BLEURT, Prism and YiSi-1.</p>
 
@@ -115,9 +115,9 @@
 
 <h2 id="challenge-set-structure">Challenge Set Structure:</h2>
 
-<p>We expect submissions in a tab-separated values (TSV) with the following formats:</p>
+<p>We expect submissions in a tab-separated values (TSV) with the following format:</p>
 
-<h3 id="format-1">Format 1:</h3>
+<h3 id="format">Format:</h3>
 
 <table>
   <thead>
@@ -142,28 +142,11 @@
 
 <p>where the <code class="language-plaintext highlighter-rouge">source</code> column contains the original segment, <code class="language-plaintext highlighter-rouge">good-translation</code> column contains a correct translation for the phenomena (in the above case is a lexical ambiguity), <code class="language-plaintext highlighter-rouge">incorrect-translation</code> an example of a translation that is not correct according to a specific phenomena and a <code class="language-plaintext highlighter-rouge">reference</code> column with (ideally) human translations, <code class="language-plaintext highlighter-rouge">phenomena</code> is an identifier that identifies the phenomena being tested.</p>
 
-<h3 id="format-2">Format 2:</h3>
+<p>For all challenge sets we will report kendall tau-like similar to what we have done in <a href="https://aclanthology.org/2021.wmt-1.73/">WMT 2021</a>. This formula measures how many times a given metric scores the <code class="language-plaintext highlighter-rouge">good-translation</code> above the <code class="language-plaintext highlighter-rouge">incorrect-translation</code> and it is defined as follows:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">source</th>
-      <th style="text-align: center">translation</th>
-      <th style="text-align: center">reference</th>
-      <th style="text-align: center">phenomena</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">Das Shampoo hilft gegen Schuppen.</td>
-      <td style="text-align: center">The shampoo helps against flakes.</td>
-      <td style="text-align: center">The shampoo helps fight dandruff.</td>
-      <td style="text-align: center">lexical-ambiguity</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Note:</strong> If you decide to submit with format 1 we will run a quick analysis based on kendall tau-like similar to what we have done in <a href="https://aclanthology.org/2021.wmt-1.73/">WMT 2021</a></p>
+<p align="center">
+    <img src="/public/css/kendall-tau.png" alt="Kendall Tau-like Formula" style="height: 75px;" />
+</p>
 
 <h2 id="important-dates">Important Dates:</h2>
 

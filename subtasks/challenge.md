@@ -9,9 +9,9 @@ Every year the Metrics shared task has been pushing for better automatic MT metr
 
 Inspired by the [Build it, Break it: The Language Edition](https://bibinlp.umiacs.umd.edu/sharedtask.html) we created a subtask where participants (_breakers_) are asked to build challenging examples that target specific phenomena currently not addresses by current. On top of that we also encourage paper submissions on Metrics analysis (for inspiration: [A Fine-Grained Analysis of BERTScore](https://aclanthology.org/2021.wmt-1.59/)).
 
-This shares task will have the two following rounds:
+This shared task will have the two following rounds:
 
-**1) Breaking Round:**  Participants (Breakers) will be given access to source sentences and two different human references that cthey can play around to create challenging examples for metrics (_constraint setting_). Alternatively, during this round participants can build challenge sets with their own data (_unconstraint setting_). They must send the resulting "challenge sets" to the organizers.
+**1) Breaking Round:**  Participants (Breakers) will be given access to source sentences and two different human references that they can play around to create challenging examples for metrics. They must send the resulting "challenge sets" to the organizers.
  
 **2) Scoring Round:** The challenge sets created by Breakers will be sent to all Metrics participants/Builders to score. Also, the organizers will score all the data with baseline metrics such as BLEU, chrF, BERTScore, COMET, BLEURT, Prism and YiSi-1.
 
@@ -20,9 +20,9 @@ This shares task will have the two following rounds:
 
 ## Challenge Set Structure:
 
-We expect submissions in a tab-separated values (TSV) with the following formats:
+We expect submissions in a tab-separated values (TSV) with the following format:
 
-### Format 1:
+### Format:
 
 | source | good-translation | incorrect-translation | reference | phenomena | 
 | :----: | :--------------: | :-------------------: | :-------: | :--: |
@@ -30,14 +30,11 @@ We expect submissions in a tab-separated values (TSV) with the following formats
 
 where the `source` column contains the original segment, `good-translation` column contains a correct translation for the phenomena (in the above case is a lexical ambiguity), `incorrect-translation` an example of a translation that is not correct according to a specific phenomena and a `reference` column with (ideally) human translations, `phenomena` is an identifier that identifies the phenomena being tested.
 
-### Format 2:
+For all challenge sets we will report kendall tau-like similar to what we have done in [WMT 2021](https://aclanthology.org/2021.wmt-1.73/). This formula measures how many times a given metric scores the `good-translation` above the `incorrect-translation` and it is defined as follows:
 
-| source | translation | reference | phenomena | 
-| :----: | :-------------------: | :-------: | :--: |
-| Das Shampoo hilft gegen Schuppen. |  The shampoo helps against flakes. | The shampoo helps fight dandruff. | lexical-ambiguity |
-
-**Note:** If you decide to submit with format 1 we will run a quick analysis based on kendall tau-like similar to what we have done in [WMT 2021](https://aclanthology.org/2021.wmt-1.73/)
-
+<p align="center">
+    <img src="/public/css/kendall-tau.png" alt="Kendall Tau-like Formula" style="height: 75px;"/>
+</p>
 
 ## Important Dates:
 
