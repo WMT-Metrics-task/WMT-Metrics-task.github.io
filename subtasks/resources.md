@@ -1,9 +1,8 @@
 ---
 layout: page
-title: 'MBR Subtask'
+title: 'Previous Editions & Resources'
 ---
 
 * [Home](../index.md)
 
 TBA
-

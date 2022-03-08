@@ -186,6 +186,14 @@ a.sidebar-nav-item:focus {
   color: #ac4142;
 }
 
+.theme-base-007 .sidebar {
+  background-color: #0f4d92;
+}
+.theme-base-007 .content a,
+.theme-base-007 .related-posts li a:hover {
+  color: #0f4d92;
+}
+
 /* Orange */
 .theme-base-09 .sidebar {
   background-color: #d28445;

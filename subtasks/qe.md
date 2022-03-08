@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QE Subtask
+title: 'QE Subtask'
 ---
 
 * [Home](../index.md)
