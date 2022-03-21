@@ -36,11 +36,24 @@ For all challenge sets we will report kendall tau-like similar to what we have d
     <img src="/public/css/kendall-tau.png" alt="Kendall Tau-like Formula" style="height: 75px;"/>
 </p>
 
+### Data/Resources:
+
+In this shared task we accept any data as long as it respects the format described above! 
+
+With that said, if you are planing to follow an automated approach similar to our approach last year, you will need access to corpora with 2 reference translations. Here are some resource ideas:
+
+- [WMT16 QE data](https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-1646) 
+- [APE-QUEST](https://ape-quest.eu/downloads/)
+
+Both corpora have Source, PE and MT. You can apply different pertubations to the PE and compare the perturbed PE version against the original PE using the reference translation. 
+
+Another possibility is to use recent testsets from WMT where you have 2 or more references (e.g: [WMT21 En-De had 4 references](https://github.com/WMT-Metrics-task/wmt21-metrics/tree/main/newstest2021_submissions/ende)). But note that, some metrics participating this year, might include that data into training and validation.
+
 ## Important Dates:
 
 |  | Date |
 | ----------- | :-----------: |
-| *Breaking Round* data release | TBA |
+| *Breaking Round* data release | 21 March |
 | *Breaking Round* submission deadline | TBA |
 | *Scoring Round* | TBA |
 | *Analysis Round* | TBA |
