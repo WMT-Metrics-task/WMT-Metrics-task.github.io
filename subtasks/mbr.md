@@ -3,8 +3,6 @@ layout: page
 title: 'Minimum Bayes Risk Subtask'
 ---
 
-* [Home](../index.md)
-
 Minimum Bayes Risk (MBR) decoding is an alternative decoding strategy for NMT models that has been shown to outperform beam search ([Freitag et al., 2021](https://arxiv.org/pdf/2111.09388.pdf)).
 MBR decoding relies on two essential components: a machine translation model and a utility metric. Automatic MT metrics play a crucial role in MBR decoding as they are the typical choice for the utility metric.
 
