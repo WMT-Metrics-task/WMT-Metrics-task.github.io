@@ -21,12 +21,9 @@ We will then run a MQM human evaluation comparing the different MBR outputs with
 
 |  | Date |
 | ----------- | :-----------: |
-| Release of candidate Lists for development | TBA |
-| Release of candidate Lists for newstest2022 | TBA |
-| Paper submission deadline to WMT | TBA |
-| WMT Notification of acceptance | TBA |
-| WMT Camera-ready deadline | TBA |
-| Conference | TBA |
+| Release of candidate Lists for development | soon |
+| Release of candidate Lists for newstest2022 | 1 week after release from WMT |
+| Submission deadline | 4 weeks after release of candidate list of newstest2022 |
 
 
 
