@@ -21,10 +21,10 @@ layout: home
 | ----------- | :-----------: |
 | System outputs ready to download | TBA |
 | Submission deadline for metrics task | TBA |
-| Paper submission deadline to WMT | TBA |
-| WMT Notification of acceptance | TBA |
-| WMT Camera-ready deadline | TBA |
-| Conference | TBA |
+| Paper submission deadline to WMT | 7th September, 2022 |
+| WMT Notification of acceptance | 9th October, 2022 |
+| WMT Camera-ready deadline | 16th October, 2022 |
+| Conference | 	7th - 8th December, 2022 |
 
 ## Goals
 
