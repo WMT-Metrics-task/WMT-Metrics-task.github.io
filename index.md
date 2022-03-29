@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Welcome to the 2022 Metrics Shared Task!
+# Welcome to the WMT 2022 Metrics Shared Task!
 
 <p class="message">
   This shared task will examine automatic evaluation metrics for machine translation. We will provide you with MT system outputs along with source text and the human reference translations. We are looking for automatic metric scores for translations at the system-level, and segment-level. We will calculate the system-level, and segment-level correlations of your scores with human judgements.<br /><br />
