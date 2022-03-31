@@ -39,7 +39,11 @@ The goals of the shared metrics task are:
 
 We will provide you with the source sentences, output of machine translation systems and reference translations.
 
-1. Official results: Correlation with MQM scores at the sentence and system level.
+1. Official results: Correlation with MQM scores at the sentence and system level for the following language pairs:
+   - German-French
+   - Chinese-English
+   - English-Czech
+   - English-German
 2. Secondary Evaluation: Correlation with official WMT Direct Assessment (DA) scores at the sentence and system level.
 
 ### Subtasks:

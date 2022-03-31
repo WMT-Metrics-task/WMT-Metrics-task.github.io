@@ -59,7 +59,7 @@ Another possibility is to use recent testsets from WMT where you have 2 or more 
 | ----------- | :-----------: |
 | *Breaking Round* data release | 21th March, 2022 |
 | *Breaking Round* submission deadline | 30th June, 2022 |
-| *Scoring Round* | July (TBC) |
+| *Scoring Round* | End of July (TBC) |
 | *Analysis Round* | 7th September, 2022 |
 | Paper submission deadline to WMT | 7th September, 2022 |
 | WMT Notification of acceptance | 9th October, 2022 |
