@@ -11,7 +11,7 @@
 
   <title>
     
-      Welcome to the 2022 Metrics Shared Task! &middot; WMT Metrics Shared Task
+      Welcome to the WMT 2022 Metrics Shared Task! &middot; WMT22 Metrics Task
     
   </title>
 
@@ -37,7 +37,7 @@
     <div class="sidebar-about">
       <h1>
         <a href="/">
-          WMT Metrics Shared Task
+          WMT22 Metrics Task
         </a>
       </h1>
       <p class="lead">This shared task will examine automatic evaluation metrics for machine translation.</p>
@@ -71,19 +71,13 @@
       
         
           
-            <a class="sidebar-nav-item" href="/subtasks/mbr/">MBR Subtask</a>
+            <a class="sidebar-nav-item" href="/subtasks/mbr/">Minimum Bayes Risk Subtask</a>
           
         
       
         
           
-            <a class="sidebar-nav-item" href="/subtasks/qe/">QE Subtask</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/subtasks/resources/">Previous Editions & Resources</a>
+            <a class="sidebar-nav-item" href="/subtasks/qe/">QE as a Metric</a>
           
         
       
@@ -101,7 +95,7 @@
 
 
     <div class="content container">
-      <h1 id="welcome-to-the-2022-metrics-shared-task">Welcome to the 2022 Metrics Shared Task!</h1>
+      <h1 id="welcome-to-the-wmt-2022-metrics-shared-task">Welcome to the WMT 2022 Metrics Shared Task!</h1>
 
 <p class="message">
   This shared task will examine automatic evaluation metrics for machine translation. We will provide you with MT system outputs along with source text and the human reference translations. We are looking for automatic metric scores for translations at the system-level, and segment-level. We will calculate the system-level, and segment-level correlations of your scores with human judgements.<br /><br />
@@ -131,19 +125,19 @@
     </tr>
     <tr>
       <td>Paper submission deadline to WMT</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">7th September, 2022</td>
     </tr>
     <tr>
       <td>WMT Notification of acceptance</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">9th October, 2022</td>
     </tr>
     <tr>
       <td>WMT Camera-ready deadline</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">16th October, 2022</td>
     </tr>
     <tr>
       <td>Conference</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">7th - 8th December, 2022</td>
     </tr>
   </tbody>
 </table>
@@ -173,20 +167,217 @@
 <ol>
   <li><a href="./subtasks/qe/">QE as a Metric</a>: In this subtask participants have to score machine translation systems without access to reference translations</li>
   <li><a href="./subtasks/challenge/">Challenge Sets</a>: While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail!</li>
-  <li><a href="./subtasks/mbr/">Minimum Bayes-Risk (MBR) Decoding</a>: <strong>TBA</strong></li>
+  <li><a href="./subtasks/mbr/">Minimum Bayes-Risk (MBR) Decoding</a>: MBR decoding typically uses metrics as utility function. We invite participants to stress test their metric when used during MBR decoding.</li>
 </ol>
 
 <h2 id="paper-describing-your-metric">Paper Describing Your Metric</h2>
 <p>You are invited to submit a short paper (4 to 6 pages) to WMT describing your automatic evaluation metric. Information on how to submit is available here. Shared task submission description papers are non-archival, and you are not required to submit a paper if you do not want to. If you don’t, we ask that you give an appropriate reference describing your metric that we can cite in the overview paper.</p>
 
 <h2 id="training-data">Training Data</h2>
-<p><strong>TBA</strong></p>
+
+<p>The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the data and the findings papers of the previous editions. The data can be used for training metrics and further analysis.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>year</th>
+      <th style="text-align: center">MQM</th>
+      <th style="text-align: center">DA system level</th>
+      <th style="text-align: center">DA segment level</th>
+      <th style="text-align: center">relative ranking</th>
+      <th style="text-align: center">paper</th>
+      <th style="text-align: center">.bib</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt21/metrics-task.html">2021</a></td>
+      <td style="text-align: center"><a href="https://github.com/google/wmt-mqm-human-evaluation">🔗</a></td>
+      <td style="text-align: center">🔗</td>
+      <td style="text-align: center">🔗</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt21/pdf/2021.wmt-1.73.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt21/bib/2021.wmt-1.73.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt20/metrics-task.html">2020</a></td>
+      <td style="text-align: center"><a href="https://github.com/google/wmt-mqm-human-evaluation">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt20/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt20/results.html">🔗</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt20/pdf/2020.wmt-1.77.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt20/bib/2020.wmt-1.77.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt19/metrics-task.html">2019</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt19/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt19/results.html">🔗</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt19/pdf/53/WMT02.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt19/bib/53/WMT02.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt18/metrics-task.html">2018</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt18/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt18/results.html">🔗</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt18/pdf/WMT078.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt18/bib/WMT078.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt17/metrics-task.html">2017</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt17/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt17/results.html">🔗</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt17/pdf/WMT55.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt17/bib/WMT55.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt16/metrics-task.html">2016</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt16/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt16/results.html">🔗</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt16/pdf/W16-2302.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://statmt.org/wmt16/bib/W16-2302.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt15/metrics-task.html">2015</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt15/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt15/pdf/WMT31.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt15/bib/WMT31.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt14/metrics-task.html">2014</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt14/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt14/pdf/W14-3336.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt14/bib/W14-3336.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt13/metrics-task.html">2013</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt13/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt13/pdf/WMT02.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt13/bib/WMT02.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt12/metrics-task.html">2012</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt12/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt12/pdf/WMT02.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt12/bib/WMT02.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt11/metrics-task.html">2011</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt11/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt11/pdf/WMT03.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt11/bib/WMT03.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt10/metrics-task.html">2010</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt10/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt10/pdf/WMT03.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt10/bib/WMT03.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt09/metrics-task.html">2009</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt09/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt09/pdf/WMT-0901.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt09/bib/WMT-0901.bib">🔗</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.statmt.org/wmt08/metrics-task.html">2008</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt08/results.html">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt08/pdf/WMT09.pdf">🔗</a></td>
+      <td style="text-align: center"><a href="https://www.statmt.org/wmt08/bib/WMT09.bib">🔗</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can use any past year’s data to tune your metric’s free parameters if it has any for this year’s submission. Additionally, you can use any past data as a test set to compare the performance of your metric against published results from past years metric participants.</p>
+
+<p>Last year’s data contains all of the system’s translations, the source documents and human reference translations and the human judgments of the translation quality.</p>
+
+<p>Also, for running the mearure metrics quality, specially new ones, we encourage you to use <a href="https://github.com/google-research/mt-metrics-eval">mt-metrics-eval</a> repo developed by George Foster.</p>
 
 <h2 id="test-sets-evaluation-data">Test Sets (Evaluation Data)</h2>
 <p><strong>TBA</strong></p>
 
 <h3 id="submission-format">Submission Format</h3>
-<p><strong>TBA</strong></p>
+
+<p>The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both). As of last year, we no longer include document level evaluation.</p>
+
+<p>There are sample metrics (with random scores) available in the validation folder in the shared data folder.</p>
+
+<p><strong>Output file format for system-level rankings</strong></p>
+
+<p>The output files for system-level rankings should be called YOURMETRIC.sys.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
+
+<blockquote>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE</p>
+</blockquote>
+
+<p>The output files for segment-level scores should be called YOURMETRIC.seg.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
+
+<blockquote>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE</p>
+</blockquote>
+
+<p>Each field should be delimited by a single tab character.</p>
+
+<p>Where:</p>
+
+<ul>
+  <li><strong>METRIC-NAME</strong> is the name of your automatic evaluation metric.</li>
+  <li><strong>LANG-PAIR</strong> is the language pair using two letter abbreviations for the languages (de-en for German-English, for example).</li>
+  <li><strong>TESTSET</strong> is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset .</li>
+  <li><strong>REFERENCE</strong> is the ID of the reference (ref-A or ref-B or ref-C or ref-D for reference-based metrics, and src for reference-free metrics</li>
+  <li><strong>SYSTEM-ID</strong> is the ID of system being scored (given by the part of the filename for the plain text file, uedin-syntax for example).</li>
+  <li><strong>SEGMENT-NUMBER</strong> is the line number starting from 1 of the plain text input files.</li>
+  <li><strong>SYSTEM-SCORE</strong> is the score your metric predicts for the particular system.</li>
+  <li><strong>SEGMENT-SCORE</strong> is the score your metric predicts for the particular segment.</li>
+</ul>
+
+<p><strong>How to submit</strong>
+Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.</p>
+
+<p>Note that the English to German data was updated at around 27 July 12:15 pm UTC, and additional system outputs were added to newstest2021 en-de, en-ru and zh-en on July 30th at 8:45 am UTC.</p>
+
+<p>Please enter yourself to <a href="https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing">this shared spreadsheet</a> so we can keep track of your submissions. Submissions should be sent to <a href="mailto:wmt.metrics@gmail.com">wmt.metrics@gmail.com</a> with the subject “WMT Metrics submission”. You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.</p>
+
+<p><strong>Before August 6th (AOE)</strong>, please send us an email with:</p>
+
+<ul>
+  <li>a short paragraph to describe your metric;</li>
+  <li>a list of resources that your metric needs. For example None, or WordNet, or GIZA++, or word2vec, or BERT;</li>
+  <li>if your metric is supervised, then the training and validation datasets. For example, Unsupervised, or WMT21 DA, or MetricsMQM, or proprietary HTER</li>
+  <li>a reference so we can cite your metric in the metrics task results paper. If this is a submission to WMT22, please email the name of the paper and the list of authors. Otherwise, send a bibtex reference to a previously published paper or a pre-print (like Arxiv).</li>
+</ul>
 
 <h2 id="organization">Organization:</h2>
 

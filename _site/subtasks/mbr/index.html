@@ -11,7 +11,7 @@
 
   <title>
     
-      MBR Subtask &middot; WMT Metrics Shared Task
+      Minimum Bayes Risk Subtask &middot; WMT22 Metrics Task
     
   </title>
 
@@ -37,7 +37,7 @@
     <div class="sidebar-about">
       <h1>
         <a href="/">
-          WMT Metrics Shared Task
+          WMT22 Metrics Task
         </a>
       </h1>
       <p class="lead">This shared task will examine automatic evaluation metrics for machine translation.</p>
@@ -71,19 +71,13 @@
       
         
           
-            <a class="sidebar-nav-item active" href="/subtasks/mbr/">MBR Subtask</a>
+            <a class="sidebar-nav-item active" href="/subtasks/mbr/">Minimum Bayes Risk Subtask</a>
           
         
       
         
           
-            <a class="sidebar-nav-item" href="/subtasks/qe/">QE Subtask</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/subtasks/resources/">Previous Editions & Resources</a>
+            <a class="sidebar-nav-item" href="/subtasks/qe/">QE as a Metric</a>
           
         
       
@@ -102,12 +96,42 @@
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">MBR Subtask</h1>
-  <ul>
-  <li><a href="/">Home</a></li>
-</ul>
+  <h1 class="page-title">Minimum Bayes Risk Subtask</h1>
+  <p>Minimum Bayes Risk (MBR) decoding is an alternative decoding strategy for NMT models that has been shown to outperform beam search (<a href="https://arxiv.org/pdf/2111.09388.pdf">Freitag et al., 2021</a>).
+MBR decoding relies on two essential components: a machine translation model and a utility metric. Automatic MT metrics play a crucial role in MBR decoding as they are the typical choice for the utility metric.</p>
 
-<p>TBA</p>
+<p>In this subtask, we ask the participants to develop utility functions that can be used during MBR decoding. A utility function can be an automatic MT metric used for the general metric task, or a new
+metric that has been tailored for the MBR use case. In both cases, MBR decoding is stress testing the utility function as it has to perform well for translations of very different quality.</p>
+
+<p>To evaluate the quality of the utility function only, we provide candidate lists (generated via ancestral sampling) from an English-German WMT NMT model.
+Based on the candidate list, we generate a score tsv file that contains all pairs of sentences that are needed to be scored for MBR decoding. Participants are asked to only submit the scored files. BAsed on the scores, we run MBR decoding on our side.</p>
+
+<p>We will then run a MQM human evaluation comparing the different MBR outputs with each other to evaluate the value of each  utility function for MBR decoding.</p>
+
+<h2 id="important-dates">Important Dates:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Release of candidate Lists for development</td>
+      <td style="text-align: center">soon</td>
+    </tr>
+    <tr>
+      <td>Release of candidate Lists for newstest2022</td>
+      <td style="text-align: center">1 week after release from WMT</td>
+    </tr>
+    <tr>
+      <td>Submission deadline</td>
+      <td style="text-align: center">4 weeks after release of candidate list of newstest2022</td>
+    </tr>
+  </tbody>
+</table>
 
 
 </div>

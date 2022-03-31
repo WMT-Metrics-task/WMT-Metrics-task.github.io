@@ -11,7 +11,7 @@
 
   <title>
     
-      Challenge Sets Subtask &middot; WMT Metrics Shared Task
+      Challenge Sets Subtask &middot; WMT22 Metrics Task
     
   </title>
 
@@ -37,7 +37,7 @@
     <div class="sidebar-about">
       <h1>
         <a href="/">
-          WMT Metrics Shared Task
+          WMT22 Metrics Task
         </a>
       </h1>
       <p class="lead">This shared task will examine automatic evaluation metrics for machine translation.</p>
@@ -71,19 +71,13 @@
       
         
           
-            <a class="sidebar-nav-item" href="/subtasks/mbr/">MBR Subtask</a>
+            <a class="sidebar-nav-item" href="/subtasks/mbr/">Minimum Bayes Risk Subtask</a>
           
         
       
         
           
-            <a class="sidebar-nav-item" href="/subtasks/qe/">QE Subtask</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/subtasks/resources/">Previous Editions & Resources</a>
+            <a class="sidebar-nav-item" href="/subtasks/qe/">QE as a Metric</a>
           
         
       
@@ -109,11 +103,17 @@
 
 <p>Every year the Metrics shared task has been pushing for better automatic MT metrics and in the last few years we have seen great progress with metrics achieving much higher correlations with human judgements <a href="https://aclanthology.org/2020.wmt-1.77/">(Mathur et al., 2020;</a> <a href="https://aclanthology.org/2021.wmt-1.73/">Freitag et al., 2021)</a>. Yet, while the limitations of metrics such as BLEU are well known in the MT comunity, we still do not know which limitations new metrics (specially neural ones) might have. For this reason we created this subtask!</p>
 
-<p>Inspired by the <a href="https://bibinlp.umiacs.umd.edu/sharedtask.html">Build it, Break it: The Language Edition</a> we created a subtask where participants (<em>breakers</em>) are asked to build challenging examples that target specific phenomena currently not addresses by current. On top of that we also encourage paper submissions on Metrics analysis (for inspiration: <a href="https://aclanthology.org/2021.wmt-1.59/">A Fine-Grained Analysis of BERTScore</a>).</p>
+<p>Inspired by the <a href="https://bibinlp.umiacs.umd.edu/sharedtask.html">Build it, Break it: The Language Edition</a> we created a subtask where participants (<em>breakers</em>) are asked to build challenging examples that target specific phenomena currently not addresses by current. On top of that we also encourage paper submissions on Metrics analysis.</p>
+
+<p>Analysis papers for inspiration:</p>
+<ul>
+  <li><a href="https://aclanthology.org/2021.wmt-1.59/">A Fine-Grained Analysis of BERTScore</a></li>
+  <li><a href="https://arxiv.org/abs/2202.05148">Identifying Weaknesses in Machine Translation Metrics Through Minimum Bayes Risk Decoding: A Case Study for COMET</a></li>
+</ul>
 
 <p>This shared task will have the two following rounds:</p>
 
-<p><strong>1) Breaking Round:</strong>  Participants (Breakers) will be given access to source sentences and two different human references that they can play around to create challenging examples for metrics. They must send the resulting “challenge sets” to the organizers.</p>
+<p><strong>1) Breaking Round:</strong>  Participants (Breakers) create challenging examples for metrics. They must send the resulting “challenge sets” to the organizers.</p>
 
 <p><strong>2) Scoring Round:</strong> The challenge sets created by Breakers will be sent to all Metrics participants/Builders to score. Also, the organizers will score all the data with baseline metrics such as BLEU, chrF, BERTScore, COMET, BLEURT, Prism and YiSi-1.</p>
 
@@ -167,7 +167,7 @@
 
 <p>Both corpora have Source, PE and MT. You can apply different pertubations to the PE and compare the perturbed PE version against the original PE using the reference translation.</p>
 
-<p>Another possibility is to use recent testsets from WMT where you have 2 or more references (e.g: <a href="https://github.com/WMT-Metrics-task/wmt21-metrics/tree/main/newstest2021_submissions/ende">WMT21 En-De we had 4 references</a>). But note that, some metrics participating this year, might include that data into training and validation.</p>
+<p>Another possibility is to use recent testsets from WMT where you have 2 or more references (e.g: <a href="https://github.com/WMT-Metrics-task/wmt21-metrics/tree/main/newstest2021_submissions/ende">WMT21 En-De had 4 references</a>). But note that, some metrics participating this year, might include that data into training and validation.</p>
 
 <h2 id="important-dates">Important Dates:</h2>
 
@@ -181,35 +181,35 @@
   <tbody>
     <tr>
       <td><em>Breaking Round</em> data release</td>
-      <td style="text-align: center">21 March</td>
+      <td style="text-align: center">21th March, 2022</td>
     </tr>
     <tr>
       <td><em>Breaking Round</em> submission deadline</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">30th June, 2022</td>
     </tr>
     <tr>
       <td><em>Scoring Round</em></td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">July (TBC)</td>
     </tr>
     <tr>
       <td><em>Analysis Round</em></td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">7th September, 2022</td>
     </tr>
     <tr>
       <td>Paper submission deadline to WMT</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">7th September, 2022</td>
     </tr>
     <tr>
       <td>WMT Notification of acceptance</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">9th October, 2022</td>
     </tr>
     <tr>
       <td>WMT Camera-ready deadline</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">16th October, 2022</td>
     </tr>
     <tr>
       <td>Conference</td>
-      <td style="text-align: center">TBA</td>
+      <td style="text-align: center">7th - 8th December, 2022</td>
     </tr>
   </tbody>
 </table>
