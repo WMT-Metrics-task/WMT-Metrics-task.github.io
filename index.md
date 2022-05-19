@@ -12,15 +12,15 @@ layout: home
 
   We invite submissions of <strong>reference-free metrics</strong> in addition to <strong>reference-based metrics</strong>.<br /><br />   
   
-  Have questions or suggestions? Feel free to <a href="mailto:wmt.metrics@gmail.com">Contact Us</a>!
+  Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
 ## Metrics Task Important Dates
 
 |  | Date |
 | ----------- | :-----------: |
-| System outputs ready to download | TBA |
-| Submission deadline for metrics task | TBA |
+| System outputs ready to download | 9th August, 2022 |
+| Submission deadline for metrics task | 16th August, 2022 |
 | Paper submission deadline to WMT | 7th September, 2022 |
 | WMT Notification of acceptance | 9th October, 2022 |
 | WMT Camera-ready deadline | 16th October, 2022 |
@@ -121,7 +121,7 @@ Before you submit, please run your scores files through a validation script, whi
 
 Note that the English to German data was updated at around 27 July 12:15 pm UTC, and additional system outputs were added to newstest2021 en-de, en-ru and zh-en on July 30th at 8:45 am UTC.
 
-Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions. Submissions should be sent to [wmt.metrics@gmail.com](mailto:wmt.metrics@gmail.com) with the subject "WMT Metrics submission". You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
+Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions. Submissions should be sent to [wmt22-metric@googlegroups.com](mailto:wmt22-metric@googlegroups.com) with the subject "WMT Metrics submission". You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
 
 **Before August 6th (AOE)**, please send us an email with:
 
