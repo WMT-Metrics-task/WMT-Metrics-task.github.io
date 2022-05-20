@@ -1,0 +1,16 @@
+current directory: /Users/catarinafarinha/Documents/WMT-Chat-task.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8/ext/unf_ext
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220510-6011-kdq7hn.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/catarinafarinha/Documents/WMT-Chat-task.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/catarinafarinha/Documents/WMT-Chat-task.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/catarinafarinha/Documents/WMT-Chat-task.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20220510-6011-1y46yv

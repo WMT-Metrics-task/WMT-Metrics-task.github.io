@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            WMT22 Metrics Task
+title:            WMT22 Chat Task
 #tagline:          'A Jekyll theme'
-description:      'This shared task will examine automatic evaluation metrics for machine translation.'
+description:      'This shared task will examine machine translation in the Chat domain.'
 #url:              http://hyde.getpoole.com
 baseurl:          /
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2022
 
 github:
-  repo:           https://github.com/WMT-Metrics-task/
+  repo:           https://github.com/WMT-Chat-task/
