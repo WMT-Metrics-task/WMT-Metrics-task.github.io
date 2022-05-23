@@ -56,7 +56,7 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 
 ## Training Data
 
-The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the data and the findings papers of the previous editions. The data can be used for training metrics and further analysis. 
+The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the _raw_ data and the findings papers of the previous editions:
 
 | year | MQM | DA system level |DA segment level | relative ranking | paper | .bib |
 |------|:---:|:---------------:|:---------------:|:--:|:--:|:--:|
