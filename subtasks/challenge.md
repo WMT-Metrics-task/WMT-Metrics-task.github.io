@@ -57,9 +57,9 @@ Another possibility is to use recent testsets from WMT where you have 2 or more 
 
 |  | Date |
 | ----------- | :-----------: |
-| *Breaking Round* data release | 21th March, 2022 |
+| *Breaking Round* task announcement | 21th March, 2022 |
 | *Breaking Round* submission deadline | **26th July, 2022** |
-| *Scoring Round* | 16th August, 2022 |
+| *Scoring Round* | 20th August, 2022 |
 | *Analysis Round* | 7th September, 2022 |
 | Paper submission deadline to WMT | 7th September, 2022 |
 | WMT Notification of acceptance | 9th October, 2022 |
