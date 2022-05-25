@@ -65,13 +65,7 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your tr
 
 ## Data available
 
-XX
-
-| lp | MQM | DA system level |DA segment level | relative ranking | paper | .bib |
-|------|:---:|:---------------:|:---------------:|:--:|:--:|:--:|
-| [dev](https://www.statmt.org/wmt21/metrics-task.html) | [🔗](https://github.com/google/wmt-mqm-human-evaluation) | 🔗 | 🔗 |  | [🔗](https://statmt.org/wmt21/pdf/2021.wmt-1.73.pdf)  | [🔗](https://statmt.org/wmt21/bib/2021.wmt-1.73.bib) |
-| [bilingual-conversations](https://www.statmt.org/wmt21/metrics-task.html) | [🔗](https://github.com/google/wmt-mqm-human-evaluation) | 🔗 | 🔗 |  | [🔗](https://statmt.org/wmt21/pdf/2021.wmt-1.73.pdf)  | [🔗](https://statmt.org/wmt21/bib/2021.wmt-1.73.bib) |
-
+TBA
 
 
 ## Test Sets (Evaluation Data)
@@ -102,7 +96,7 @@ Please enter yourself to [this shared spreadsheet](https://docs.google.com/sprea
 - Patrick Fernandes, Google and CMU and Instituto Superior Técnico
 - José Souza, Unbabel
 - João Alves, Unbabel
-- António Lopes, Unbabel and Instituto Superior Técnico
+- António Lopes, Unbabel
 - Helena Moniz, INESC-ID and Unbabel 
 - André Martins, Unbabel and Instituto Superior Técnico
 
