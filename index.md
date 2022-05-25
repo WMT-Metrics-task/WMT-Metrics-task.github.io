@@ -99,6 +99,7 @@ Please enter yourself to [this shared spreadsheet](https://docs.google.com/sprea
 
 - Ana C. Farinha, Unbabel
 - M. Amin Farajian, Unbabel
+- Patrick Fernandes, Google and CMU and Instituto Superior Técnico
 - José Souza, Unbabel
 - João Alves, Unbabel
 - António Lopes, Unbabel and Instituto Superior Técnico
