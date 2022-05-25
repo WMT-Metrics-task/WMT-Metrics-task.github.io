@@ -76,18 +76,6 @@ TBA
 
 TBA
 
-**How to submit**
-Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.
-
-Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions. Submissions should be sent to [wmt.chat@gmail.com](mailto:wmt.chat@gmail.com) with the subject "WMT Chat submission". [REPLACE THIS FOR THE OCELOT PLATFORM!]
-
-**Before August 6th (AOE)**, please send us an email with:
-
-- a short paragraph to describe your translation model;
-- a list of resources that your translation model needs. For example None, or WordNet, or GIZA++, or word2vec, or BERT;
-- if your translation model is supervised, then the training and validation datasets;
-- a reference so we can cite your translation modeel in the Chat task results paper. If this is a submission to WMT22, please email the name of the paper and the list of authors. Otherwise, send a bibtex reference to a previously published paper or a pre-print (like Arxiv).
-
 
 ## Organization:
 
