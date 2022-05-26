@@ -49,7 +49,6 @@ We will provide you with the source sentences, output of machine translation sys
 
 1. [QE as a Metric](./subtasks/qe/): In this subtask participants have to score machine translation systems without access to reference translations
 2. [Challenge Sets](./subtasks/challenge/): While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail! 
-3. [Minimum Bayes-Risk (MBR) Decoding](./subtasks/mbr/): MBR decoding typically uses metrics as utility function. We invite participants to stress test their metric when used during MBR decoding. 
 
 ## Paper Describing Your Metric
 You are invited to submit a short paper (4 to 6 pages) to WMT describing your automatic evaluation metric. Information on how to submit is available here. Shared task submission description papers are non-archival, and you are not required to submit a paper if you do not want to. If you don't, we ask that you give an appropriate reference describing your metric that we can cite in the overview paper.
