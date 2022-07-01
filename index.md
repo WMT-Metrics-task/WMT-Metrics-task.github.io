@@ -51,7 +51,7 @@ We will provide you with the source sentences, output of machine translation sys
 2. [Challenge Sets](./subtasks/challenge/): While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail! 
 
 ## Paper Describing Your Metric
-You are invited to submit a short paper (4 to 6 pages) to WMT describing your automatic evaluation metric. Information on how to submit is available here. Shared task submission description papers are non-archival, and you are not required to submit a paper if you do not want to. If you don't, we ask that you give an appropriate reference describing your metric that we can cite in the overview paper.
+You are invited to submit a short paper (4 to 6 pages) to WMT describing your automatic evaluation metric. Shared task submission description papers are non-archival, and you are not required to submit a paper if you do not want to. If you don't, we ask that you give an appropriate reference describing your metric that we can cite in the overview paper.
 
 ## Training Data
 
@@ -114,13 +114,15 @@ Where:
 - **SYSTEM-SCORE** is the score your metric predicts for the particular system.
 - **SEGMENT-SCORE** is the score your metric predicts for the particular segment.
 
-**How to submit**
+
+#### How to submit:
 Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.
 
+Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions.  
 
-Note that the English to German data was updated at around 27 July 12:15 pm UTC, and additional system outputs were added to newstest2021 en-de, en-ru and zh-en on July 30th at 8:45 am UTC.
+Submissions should be sent to [wmt.metrics@gmail.com](mailto:wmt.metrics@gmail.com) with the subject "WMT Metrics submission". 
 
-Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions. Submissions should be sent to [wmt22-metric@googlegroups.com](mailto:wmt22-metric@googlegroups.com) with the subject "WMT Metrics submission". You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
+You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
 
 **Before August 6th (AOE)**, please send us an email with:
 
