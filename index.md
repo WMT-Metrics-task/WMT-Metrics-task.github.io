@@ -55,6 +55,8 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 
 ## Training Data
 
+> ``❗`` Since data from previous WMT editions might be difficult to navigate we are adding a table with links to download data from previous years. You have new links in the New: Download links section
+
 The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the _raw_ data and the findings papers of the previous editions:
 
 | year | MQM | DA system level |DA segment level | relative ranking | paper | .bib |
@@ -80,6 +82,30 @@ You can use any past year's data to tune your metric's free parameters if it has
 Last year's data contains all of the system's translations, the source documents and human reference translations and the human judgments of the translation quality.
 
 Also, for running the mearure metrics quality, specially new ones, we encourage you to use [mt-metrics-eval](https://github.com/google-research/mt-metrics-eval) repo developed by George Foster.
+
+#### New: Download links
+
+DA data:
+
+| year | DA | relative ranks | paper |
+|:---: | :--: | :---: | :---: |
+| 2017 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2017-da.csv.tar.gz) | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2017-daRR.csv.tar.gz) | [Results of the WMT17 Metrics Shared Task](https://statmt.org/wmt17/pdf/WMT55.pdf) |
+| 2018 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2018-da.csv.tar.gz) |  [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2018-daRR.csv.tar.gz) |[Results of the WMT18 Metrics Shared Task](https://statmt.org/wmt18/pdf/WMT078.pdf) |
+| 2019 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2019-da.csv.tar.gz) |  [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2019-daRR.csv.tar.gz) |[Results of the WMT19 Metrics Shared Task](https://statmt.org/wmt19/pdf/53/WMT02.pdf) |
+| 2020 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2020-da.csv.tar.gz) |  [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2020-daRR.csv.tar.gz) |[Results of the WMT20 Metrics Shared Task](https://aclanthology.org/2020.wmt-1.77.pdf) |
+
+MQM data:
+
+| year | LP | testset | paper |
+|:---: | :--: | :---: | :---: |
+| 2020 | [en-de 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-ende-newstest2020.csv.tar.gz) | Newstest2020 | [A Large-Scale Study of Human Evaluation for Machine Translation](https://aclanthology.org/2021.tacl-1.87.pdf)|
+| 2020 | [zh-en 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-zhen-newstest2020.csv.tar.gz) | Newstest2020 | [A Large-Scale Study of Human Evaluation for Machine Translation](https://aclanthology.org/2021.tacl-1.87.pdf)|
+| 2021 | [en-ru 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-enru-newstest2021.csv.tar.gz) | Newstest2021 | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+| 2021 | [en-de 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-ende-newstest2021.csv.tar.gz) | Newstest2021 | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+| 2021 | [zh-en 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-zhen-newstest2021.csv.tar.gz) | Newstest2021 | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+| 2021 | [en-ru 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-enru-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+| 2021 | [en-de 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-ende-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+| 2021 | [zh-en 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-zhen-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
 
 
 ## Test Sets (Evaluation Data)
