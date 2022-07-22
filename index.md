@@ -55,7 +55,7 @@ You are invited to submit a short paper (4 to 6 pages) to WMT describing your au
 
 ## Training Data
 
-> ``❗`` Since data from previous WMT editions might be difficult to navigate we are adding a table with links to download data from previous years. You have new links in the New: Download links section
+ ``❗`` Since data from previous WMT editions might be difficult to navigate we are adding a table with links to download data from previous years. You have new links in the **New: Download links section**
 
 The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the _raw_ data and the findings papers of the previous editions:
 
@@ -79,13 +79,11 @@ The WMT Metrics shared task takes place yearly since 2008. You may want to use d
 
 You can use any past year's data to tune your metric's free parameters if it has any for this year's submission. Additionally, you can use any past data as a test set to compare the performance of your metric against published results from past years metric participants.
 
-Last year's data contains all of the system's translations, the source documents and human reference translations and the human judgments of the translation quality.
-
 Also, for running the mearure metrics quality, specially new ones, we encourage you to use [mt-metrics-eval](https://github.com/google-research/mt-metrics-eval) repo developed by George Foster.
 
 #### New: Download links
 
-DA data:
+##### DA data:
 
 | year | DA | relative ranks | paper |
 |:---: | :--: | :---: | :---: |
@@ -94,7 +92,9 @@ DA data:
 | 2019 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2019-da.csv.tar.gz) |  [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2019-daRR.csv.tar.gz) |[Results of the WMT19 Metrics Shared Task](https://statmt.org/wmt19/pdf/53/WMT02.pdf) |
 | 2020 | [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2020-da.csv.tar.gz) |  [🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/2020-daRR.csv.tar.gz) |[Results of the WMT20 Metrics Shared Task](https://aclanthology.org/2020.wmt-1.77.pdf) |
 
-MQM data:
+``❗``: We are not providing links to the Direct Assessments from 2021 because we found bugs in the scores. We advise participants to avoid using that data. For 2021 you can rely on the MQM annotations below 👇.
+
+##### MQM data:
 
 | year | LP | testset | paper |
 |:---: | :--: | :---: | :---: |
@@ -106,6 +106,8 @@ MQM data:
 | 2021 | [en-ru 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-enru-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
 | 2021 | [en-de 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-ende-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
 | 2021 | [zh-en 🔗](https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/wmt/MQM/wmt-zhen-tedtalks.csv.tar.gz) | Ted Talks | [Results of the WMT21 Metrics Shared Task](https://aclanthology.org/2021.wmt-1.73.pdf)|
+
+``❗``: MQM data for _en-de_ and _zh-en_ was mostly annotated by Google and it ranges -25 to 0 where 0 is a perfect translation and -25 is the worse possible score. On the other hand, _en-ru_ data was annotated by Unbabel and ranges -inf to 100 where 100 is a perfect translation and something below 0 is a bad translation. You can find the original data [here](https://github.com/google/wmt-mqm-human-evaluation) with more information about raters, etc...
 
 
 ## Test Sets (Evaluation Data)

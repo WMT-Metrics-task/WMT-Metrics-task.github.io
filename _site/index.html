@@ -173,9 +173,7 @@
 
 <h2 id="training-data">Training Data</h2>
 
-<blockquote>
-  <p><code class="language-plaintext highlighter-rouge">❗</code> Since data from previous WMT editions might be difficult to navigate we are adding a table with links to download data from previous years. You have new links in the New: Download links section</p>
-</blockquote>
+<p><code class="language-plaintext highlighter-rouge">❗</code> Since data from previous WMT editions might be difficult to navigate we are adding a table with links to download data from previous years. You have new links in the <strong>New: Download links section</strong></p>
 
 <p>The WMT Metrics shared task takes place yearly since 2008. You may want to use data from previous editions to tune/train your metric. The following table provides links to the descriptions, the <em>raw</em> data and the findings papers of the previous editions:</p>
 
@@ -323,13 +321,11 @@
 
 <p>You can use any past year’s data to tune your metric’s free parameters if it has any for this year’s submission. Additionally, you can use any past data as a test set to compare the performance of your metric against published results from past years metric participants.</p>
 
-<p>Last year’s data contains all of the system’s translations, the source documents and human reference translations and the human judgments of the translation quality.</p>
-
 <p>Also, for running the mearure metrics quality, specially new ones, we encourage you to use <a href="https://github.com/google-research/mt-metrics-eval">mt-metrics-eval</a> repo developed by George Foster.</p>
 
 <h4 id="new-download-links">New: Download links</h4>
 
-<p>DA data:</p>
+<h5 id="da-data">DA data:</h5>
 
 <table>
   <thead>
@@ -368,7 +364,9 @@
   </tbody>
 </table>
 
-<p>MQM data:</p>
+<p><code class="language-plaintext highlighter-rouge">❗</code>: We are not providing links to the Direct Assessments from 2021 because we found bugs in the scores. We advise participants to avoid using that data. For 2021 you can rely on the MQM annotations below 👇.</p>
+
+<h5 id="mqm-data">MQM data:</h5>
 
 <table>
   <thead>
@@ -430,6 +428,8 @@
     </tr>
   </tbody>
 </table>
+
+<p><code class="language-plaintext highlighter-rouge">❗</code>: MQM data for <em>en-de</em> and <em>zh-en</em> was mostly annotated by Google and it ranges -25 to 0 where 0 is a perfect translation and -25 is the worse possible score. On the other hand, <em>en-ru</em> data was annotated by Unbabel and ranges -inf to 100 where 100 is a perfect translation and something below 0 is a bad translation. You can find the original data <a href="https://github.com/google/wmt-mqm-human-evaluation">here</a> with more information about raters, etc…</p>
 
 <h2 id="test-sets-evaluation-data">Test Sets (Evaluation Data)</h2>
 <p><strong>TBA</strong></p>
