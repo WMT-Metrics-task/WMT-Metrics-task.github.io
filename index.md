@@ -19,8 +19,8 @@ layout: home
 
 |  | Date |
 | ----------- | :-----------: |
-| System outputs ready to download | 9th August, 2022 |
-| Submission deadline for metrics task | 16th August, 2022 |
+| **System outputs ready to download** | **16th August, 2022** |
+| **Submission deadline for metrics task** |  **23th August, 2022❗** |
 | Paper submission deadline to WMT | 7th September, 2022 |
 | WMT Notification of acceptance | 9th October, 2022 |
 | WMT Camera-ready deadline | 16th October, 2022 |
