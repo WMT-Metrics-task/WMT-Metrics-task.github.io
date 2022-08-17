@@ -15,6 +15,8 @@ layout: home
   Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
+> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/1pxRbFemgkwIJByZI-hojpDuetfCUrcO0/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
+
 ## Metrics Task Important Dates
 
 |  | Date |
@@ -111,23 +113,26 @@ Also, for running the mearure metrics quality, specially new ones, we encourage 
 
 
 ## Test Sets (Evaluation Data)
-**TBA**
+
+You can download the System outputs from [here](https://drive.google.com/file/d/1pxRbFemgkwIJByZI-hojpDuetfCUrcO0/view?usp=sharing)
 
 ### Submission Format
 
-The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both). As of last year, we no longer include document level evaluation.
+The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both). 
 
-There are sample metrics (with random scores) available in the validation folder in the shared data folder.
+We release along with the data two python scripts to help you score the data. The scripts should be easy to modify in order to run your metrics. We advise you to use them.
+
+We also provide 3 examples of scored data using BLEU, chrF and COME-QE (for QE-as-a-metric)
 
 **Output file format for system-level rankings**
 
 The output files for system-level rankings should be called YOURMETRIC.sys.score.gz and formatted as a tab-separated values (TSV) in the following way:
 
-> METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE  
+> METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE  
   
 The output files for segment-level scores should be called YOURMETRIC.seg.score.gz and formatted as a tab-separated values (TSV) in the following way:
 
-> METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE
+> METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tDOCUMENT\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE
 
 Each field should be delimited by a single tab character.
 
@@ -135,7 +140,9 @@ Where:
 
 - **METRIC-NAME** is the name of your automatic evaluation metric.
 - **LANG-PAIR** is the language pair using two letter abbreviations for the languages (de-en for German-English, for example).
-- **TESTSET** is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset .
+- **TESTSET** is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset.
+- **DOMAIN** is the domain of a given segment. It can be _conversation_, _ecommerce_, _news_, _social_ or _all_. The domain will only be used for *en-de*, *en-ru* and *zh-en*. For those languages we will look at results for individual domains + concatenation of all domain (_all_). For all other language pairs the domain should be _all_.
+- **DOCUMENT** is the ID of the document. As for the the domain, the document information is only relevant for *en-de*, *en-ru* and *zh-en*. The information about each document and domain can be found in the `metrics_inputs/txt/generaltest2022/metadata`.
 - **REFERENCE** is the ID of the reference (ref-A or ref-B or ref-C or ref-D for reference-based metrics, and src for reference-free metrics
 - **SYSTEM-ID** is the ID of system being scored (given by the part of the filename for the plain text file, uedin-syntax for example).
 - **SEGMENT-NUMBER** is the line number starting from 1 of the plain text input files.
@@ -144,6 +151,7 @@ Where:
 
 
 #### How to submit:
+
 Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.
 
 Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions.  

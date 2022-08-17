@@ -98,6 +98,10 @@
   Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">❗</code> System outputs are already available to score! Please download them from <a href="https://drive.google.com/file/d/1pxRbFemgkwIJByZI-hojpDuetfCUrcO0/view?usp=sharing">here</a>. We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.</p>
+</blockquote>
+
 <h2 id="metrics-task-important-dates">Metrics Task Important Dates</h2>
 
 <table>
@@ -432,26 +436,29 @@
 <p><code class="language-plaintext highlighter-rouge">❗</code>: MQM data for <em>en-de</em> and <em>zh-en</em> was mostly annotated by Google and it ranges -25 to 0 where 0 is a perfect translation and -25 is the worse possible score. On the other hand, <em>en-ru</em> data was annotated by Unbabel and ranges -inf to 100 where 100 is a perfect translation and something below 0 is a bad translation. You can find the original data <a href="https://github.com/google/wmt-mqm-human-evaluation">here</a> with more information about raters, etc…</p>
 
 <h2 id="test-sets-evaluation-data">Test Sets (Evaluation Data)</h2>
-<p><strong>TBA</strong></p>
+
+<p>You can download the System outputs from <a href="https://drive.google.com/file/d/1pxRbFemgkwIJByZI-hojpDuetfCUrcO0/view?usp=sharing">here</a></p>
 
 <h3 id="submission-format">Submission Format</h3>
 
-<p>The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both). As of last year, we no longer include document level evaluation.</p>
+<p>The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both).</p>
 
-<p>There are sample metrics (with random scores) available in the validation folder in the shared data folder.</p>
+<p>We release along with the data two python scripts to help you score the data. The scripts should be easy to modify in order to run your metrics. We advise you to use them.</p>
+
+<p>We also provide 3 examples of scored data using BLEU, chrF and COME-QE (for QE-as-a-metric)</p>
 
 <p><strong>Output file format for system-level rankings</strong></p>
 
 <p>The output files for system-level rankings should be called YOURMETRIC.sys.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
 
 <blockquote>
-  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE</p>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE</p>
 </blockquote>
 
 <p>The output files for segment-level scores should be called YOURMETRIC.seg.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
 
 <blockquote>
-  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE</p>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tDOCUMENT\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE</p>
 </blockquote>
 
 <p>Each field should be delimited by a single tab character.</p>
@@ -461,7 +468,9 @@
 <ul>
   <li><strong>METRIC-NAME</strong> is the name of your automatic evaluation metric.</li>
   <li><strong>LANG-PAIR</strong> is the language pair using two letter abbreviations for the languages (de-en for German-English, for example).</li>
-  <li><strong>TESTSET</strong> is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset .</li>
+  <li><strong>TESTSET</strong> is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset.</li>
+  <li><strong>DOMAIN</strong> is the domain of a given segment. It can be <em>conversation</em>, <em>ecommerce</em>, <em>news</em>, <em>social</em> or <em>all</em>. The domain will only be used for <em>en-de</em>, <em>en-ru</em> and <em>zh-en</em>. For those languages we will look at results for individual domains + concatenation of all domain (<em>all</em>). For all other language pairs the domain should be <em>all</em>.</li>
+  <li><strong>DOCUMENT</strong> is the ID of the document. As for the the domain, the document information is only relevant for <em>en-de</em>, <em>en-ru</em> and <em>zh-en</em>. The information about each document and domain can be found in the <code class="language-plaintext highlighter-rouge">metrics_inputs/txt/generaltest2022/metadata</code>.</li>
   <li><strong>REFERENCE</strong> is the ID of the reference (ref-A or ref-B or ref-C or ref-D for reference-based metrics, and src for reference-free metrics</li>
   <li><strong>SYSTEM-ID</strong> is the ID of system being scored (given by the part of the filename for the plain text file, uedin-syntax for example).</li>
   <li><strong>SEGMENT-NUMBER</strong> is the line number starting from 1 of the plain text input files.</li>
@@ -470,6 +479,7 @@
 </ul>
 
 <h4 id="how-to-submit">How to submit:</h4>
+
 <p>Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.</p>
 
 <p>Please enter yourself to <a href="https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing">this shared spreadsheet</a> so we can keep track of your submissions.</p>
