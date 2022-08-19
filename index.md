@@ -156,7 +156,7 @@ Before you submit, please run your scores files through a validation script, whi
 
 Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions.  
 
-Submissions should be sent to [wmt.metrics@gmail.com](mailto:wmt.metrics@gmail.com) with the subject "WMT Metrics submission". 
+Submissions should be sent to [wmt22-metric@googlegroups.com](mailto:wmt22-metric@googlegroups.com) with the subject "WMT Metrics submission". 
 
 You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
 
