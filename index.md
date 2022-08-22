@@ -122,7 +122,8 @@ The output of your software should produce scores for the translations either at
 
 We release along with the data two python scripts to help you score the data. The scripts should be easy to modify in order to run your metrics. We advise you to use them.
 
-We also provide 3 examples of scored data using BLEU, chrF and COME-QE (for QE-as-a-metric)
+We also provide 4 examples of scored data using BLEU, chrF, BLEURT, and COMET-QE (for QE-as-a-metric) available [here](https://drive.google.com/drive/folders/17T2ECVqFcntSgUP92bygg5nkD2MzLP1R?usp=sharing) 
+
 
 **Output file format for system-level rankings**
 
@@ -152,7 +153,7 @@ Where:
 
 #### How to submit:
 
-Before you submit, please run your scores files through a validation script, which is now available along with the data in the shared folder.
+Before you submit, please run your scores files through a validation script, which is now available [here](https://drive.google.com/file/d/12_uzUVUJAppN5PQLo1Uh8TK9UcwV0AfW/view?usp=sharing). You can use it along with either BLEU or COMET-QE sys and seg scores files in the [baselines folder](https://drive.google.com/drive/folders/17T2ECVqFcntSgUP92bygg5nkD2MzLP1R?usp=sharing) 
 
 Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions.  
 
@@ -160,7 +161,7 @@ Submissions should be sent to [wmt22-metric@googlegroups.com](mailto:wmt22-metri
 
 You are allowed to submit multiple metrics, but we need you to indicate the primary metric in the email. If submitting more than one metric, please share a folder with all your metrics, for example on Google Drive or Dropbox.
 
-**Before August 6th (AOE)**, please send us an email with:
+**Before August 30th (AOE)**, please send us an email with:
 
 - a short paragraph to describe your metric;
 - a list of resources that your metric needs. For example None, or WordNet, or GIZA++, or word2vec, or BERT;
@@ -172,7 +173,7 @@ You are allowed to submit multiple metrics, but we need you to indicate the prim
 
 - Markus Freitag, Google Research
 - Ricardo Rei, Unbabel and Instituto Superior Técnico
-- Nitika Mathur, University of Melbourne
+- Nitika Mathur, Oracle
 - Chi-kiu (Jackie) Lo, NRC Canada
 - George Foster, Google Research
 - Alon Lavie, Unbabel
@@ -205,9 +206,6 @@ You are allowed to submit multiple metrics, but we need you to indicate the prim
 
 <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
     <div style="position: relative; bottom: 0px;">
-	   <div class="column">
-	     <img src="/public/css/melbourne.png" height=70px width=auto>
-	   </div>
 	   <div class="column">
 	     <img src="/public/css/NRC-logo.png" height=70px width=auto>
 	   </div>
