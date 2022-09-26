@@ -15,15 +15,15 @@ layout: home
   Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
-> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/1pxRbFemgkwIJByZI-hojpDuetfCUrcO0/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
+> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/16_X4A9YGJ2k7F39ynZ0IDYbmWrA06x0j/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
 
 ## Metrics Task Important Dates
 
 |  | Date |
 | ----------- | :-----------: |
 | **System outputs ready to download** | **16th August, 2022** |
-| **Submission deadline for metrics task** |  **23th August, 2022❗** |
-| Paper submission deadline to WMT | 7th September, 2022 |
+| **Submission deadline for metrics task** |  **23th August, 2022** |
+| **Paper submission deadline to WMT** | **7th September, 2022** |
 | WMT Notification of acceptance | 9th October, 2022 |
 | WMT Camera-ready deadline | 16th October, 2022 |
 | Conference | 	7th - 8th December, 2022 |
