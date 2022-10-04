@@ -15,7 +15,7 @@ layout: home
   Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
-> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/16_X4A9YGJ2k7F39ynZ0IDYbmWrA06x0j/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
+> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
 
 ## Metrics Task Important Dates
 
@@ -114,7 +114,7 @@ Also, for running the mearure metrics quality, specially new ones, we encourage 
 
 ## Test Sets (Evaluation Data)
 
-You can download the System outputs from [here](https://drive.google.com/file/d/16_X4A9YGJ2k7F39ynZ0IDYbmWrA06x0j/view?usp=sharing)
+You can download the System outputs from [here](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing)
 
 ### Submission Format
 
@@ -122,7 +122,7 @@ The output of your software should produce scores for the translations either at
 
 We release along with the data two python scripts to help you score the data. The scripts should be easy to modify in order to run your metrics. We advise you to use them.
 
-We also provide 4 examples of scored data using BLEU, chrF, BLEURT, and COMET-QE (for QE-as-a-metric) available [here](https://drive.google.com/drive/folders/17T2ECVqFcntSgUP92bygg5nkD2MzLP1R?usp=sharing) 
+We also provide 4 examples of scored data using BLEU, chrF, BLEURT, and COMET-QE (for QE-as-a-metric) available [here](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing) 
 
 
 **Output file format for system-level rankings**
@@ -153,7 +153,7 @@ Where:
 
 #### How to submit:
 
-Before you submit, please run your scores files through a validation script, which is now available [here](https://drive.google.com/file/d/12_uzUVUJAppN5PQLo1Uh8TK9UcwV0AfW/view?usp=sharing). You can use it along with either BLEU or COMET-QE sys and seg scores files in the [baselines folder](https://drive.google.com/drive/folders/17T2ECVqFcntSgUP92bygg5nkD2MzLP1R?usp=sharing) 
+Before you submit, please run your scores files through a validation script, which is now available [here](https://drive.google.com/file/d/12_uzUVUJAppN5PQLo1Uh8TK9UcwV0AfW/view?usp=sharing). You can use it along with either BLEU or COMET-QE sys and seg scores files in the [baselines folder](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing) 
 
 Please enter yourself to [this shared spreadsheet](https://docs.google.com/spreadsheets/d/1bj4i5H-fbZJi3H700P56I7kh0_HWeat1GkVq7-M-ij0/edit?usp=sharing) so we can keep track of your submissions.  
 
