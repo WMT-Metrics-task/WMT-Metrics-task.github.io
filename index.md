@@ -15,7 +15,10 @@ layout: home
   Have questions or suggestions? Feel free to <a href="mailto:wmt22-metric@googlegroups.com">Contact Us</a>!
 </p>
 
-> ``❗`` System outputs are already available to score! Please download them from [here](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing). We included a README and scripts to help you score the data in the correct format. Please adapt these scripts to your metric and send us an email if you have questions.
+## Important links
+
+[Test data](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing) for the WMT2022 metric shared task.
+[Mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for downloading all training data + running correlation numbers aka the sacreBLEU for metric developers.
 
 ## Metrics Task Important Dates
 
