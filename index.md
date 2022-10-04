@@ -19,7 +19,7 @@ layout: home
 
 [Test data](https://drive.google.com/file/d/1I0O-NzOLCxrO6noub2pY81BtWxp42A46/view?usp=sharing) for the WMT2022 metric shared task.
 
-[Mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for downloading all training data + running correlation numbers aka the sacreBLEU for metric developers.
+[Mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for calculating correlation numbers aka the sacreBLEU for metric developers. You can also dump the most recent test sets.
 
 ## Metrics Task Important Dates
 
