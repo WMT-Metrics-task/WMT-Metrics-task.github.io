@@ -1,3 +1,13 @@
+# Running Locally:
+
+Make sure you [install Jenkyll](http://jekyllrb.com/) and the running the website locally is just:
+
+```bash
+bundle exec jekyll serve
+```
+
+Then you can open and visualize your changes locally: [http://127.0.0.1:4000//](http://127.0.0.1:4000//)
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
@@ -7,15 +17,18 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 
 ## Contents
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+- [Running Locally:](#running-locally)
+- [Hyde](#hyde)
+  - [Contents](#contents)
+  - [Usage](#usage)
+  - [Options](#options)
+    - [Sidebar menu](#sidebar-menu)
+    - [Sticky sidebar content](#sticky-sidebar-content)
+    - [Themes](#themes)
+    - [Reverse layout](#reverse-layout)
+  - [Development](#development)
+  - [Author](#author)
+  - [License](#license)
 
 
 ## Usage

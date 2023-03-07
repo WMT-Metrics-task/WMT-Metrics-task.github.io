@@ -7,15 +7,17 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 
 ## Contents
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+- [Hyde](#hyde)
+  - [Contents](#contents)
+  - [Usage](#usage)
+  - [Options](#options)
+    - [Sidebar menu](#sidebar-menu)
+    - [Sticky sidebar content](#sticky-sidebar-content)
+    - [Themes](#themes)
+    - [Reverse layout](#reverse-layout)
+  - [Development](#development)
+  - [Author](#author)
+  - [License](#license)
 
 
 ## Usage

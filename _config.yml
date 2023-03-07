@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            WMT22 Metrics Task
+title:            WMT23 Metrics Task
 #tagline:          'A Jekyll theme'
 description:      'This shared task will examine automatic evaluation metrics for machine translation.'
 #url:              http://hyde.getpoole.com
@@ -19,7 +19,7 @@ baseurl:          /
 paginate:         5
 
 # Custom vars
-version:          2022
+version:          2023
 
 github:
   repo:           https://github.com/WMT-Metrics-task/
