@@ -8,6 +8,8 @@ bundle exec jekyll serve
 
 Then you can open and visualize your changes locally: [http://127.0.0.1:4000//](http://127.0.0.1:4000//)
 
+You can visualize the website from last year by changing into [`wmt22-website`](https://github.com/WMT-Metrics-task/WMT-Metrics-task.github.io/tree/wmt22-website) branch and running the above command!
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
