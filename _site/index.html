@@ -98,22 +98,144 @@
   Have questions or suggestions? Feel free to <a href="mailto:wmt-metrics@googlegroups.com">Contact Us</a>!
 </p>
 
-<h2 id="tba">TBA</h2>
+<h2 id="important-links">Important links</h2>
+
+<p><a href="https://github.com/google-research/mt-metrics-eval">Mt-metrics-eval</a>: the tool for calculating correlation numbers aka the sacreBLEU for metric developers. You can also dump the most recent test sets.</p>
+
+<h2 id="important-dates">Important Dates</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>System outputs ready to download</strong></td>
+      <td style="text-align: center"><strong>TBA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Submission deadline for metrics task</strong></td>
+      <td style="text-align: center"><strong>TBA</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Paper submission deadline to WMT</strong></td>
+      <td style="text-align: center"><strong>1th September, 2023</strong></td>
+    </tr>
+    <tr>
+      <td>WMT Notification of acceptance</td>
+      <td style="text-align: center">6th October, 2023</td>
+    </tr>
+    <tr>
+      <td>WMT Camera-ready deadline</td>
+      <td style="text-align: center">18th October, 2023</td>
+    </tr>
+    <tr>
+      <td>Conference</td>
+      <td style="text-align: center">6th - 7th December, 2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="goals">Goals</h2>
+
+<p>The goals of the shared metrics task are:</p>
+
+<ul>
+  <li>To achieve the strongest correlation with human judgement of translation quality over a diverse set of MT systems;</li>
+  <li>To illustrate the suitability of an automatic evaluation metric as a surrogate for human evaluation;</li>
+  <li>To test robustness of metrics when evaluating domains other than news data;</li>
+  <li>To create high quality datasets for developing and evaluating metrics</li>
+</ul>
+
+<h2 id="task-description">Task Description</h2>
+
+<p>We will provide you with the source sentences, output of machine translation systems and reference translations.</p>
+
+<ol>
+  <li>Official results: Correlation with MQM scores at the sentence and system level for the following language pairs:
+    <ul>
+      <li>Hebrew-English <strong>(NEW!)</strong></li>
+      <li>Chinese-English</li>
+      <li>English-German</li>
+    </ul>
+  </li>
+  <li>Secondary Evaluation: Correlation with official <a href="http://www2.statmt.org/wmt23/translation-task.html">WMT Human Evaluation</a> at the sentence and system level.</li>
+</ol>
+
+<h3 id="subtasks">Subtasks:</h3>
+
+<ol>
+  <li><a href="./subtasks/qe/">QE as a Metric</a>: In this subtask participants have to score machine translation systems without access to reference translations</li>
+  <li><a href="./subtasks/challenge/">Challenge Sets [TBA]</a>: While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail!</li>
+</ol>
+
+<h2 id="how-to-participate">How to participate?</h2>
+
+<p>Please fill the following <a href="https://forms.gle/UTBen7EBRJaMFttK6">registration form</a> so we can keep track of participants. Since we will be using <a href="https://codalab.lisn.upsaclay.fr/">Codalab</a> to handle all submissions you will also have to create an account on codalab and enroll in the competition.</p>
+
+<h3 id="paper-describing-your-metric">Paper Describing Your Metric</h3>
+
+<p>You are invited to submit a short paper (4 to 6 pages) to WMT describing your automatic evaluation metric. Shared task submission description papers are non-archival, and you are not required to submit a paper if you do not want to. If you don’t, we ask that you give an appropriate reference describing your metric that we can cite in the overview paper.</p>
+
+<h3 id="submission-format">Submission Format</h3>
+
+<p>The output of your software should produce scores for the translations either at the system-level or the segment-level (or preferably both).</p>
+
+<p><strong>Output file format for system-level rankings</strong></p>
+
+<p>The output files for system-level rankings should be called YOURMETRIC.sys.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
+
+<blockquote>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE</p>
+</blockquote>
+
+<p>The output files for segment-level scores should be called YOURMETRIC.seg.score.gz and formatted as a tab-separated values (TSV) in the following way:</p>
+
+<blockquote>
+  <p>METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tDOCUMENT\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE</p>
+</blockquote>
+
+<p>Each field should be delimited by a single tab character.</p>
+
+<p>Where:</p>
+
+<ul>
+  <li><strong>METRIC-NAME</strong> is the name of your automatic evaluation metric.</li>
+  <li><strong>LANG-PAIR</strong> is the language pair using two letter abbreviations for the languages (de-en for German-English, for example).</li>
+  <li><strong>TESTSET</strong> is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset.</li>
+  <li><strong>DOMAIN</strong> is the domain of a given segment. It can be <em>conversation</em>, <em>ecommerce</em>, <em>news</em>, <em>social</em> or <em>all</em>. The domain will only be used for <em>en-de</em>, <em>he-en</em> and <em>zh-en</em>. For those languages we will look at results for individual domains + concatenation of all domain (<em>all</em>). For all other language pairs the domain should be <em>all</em>.</li>
+  <li><strong>DOCUMENT</strong> is the ID of the document. As for the the domain, the document information is only relevant for <em>en-de</em>, <em>he-en</em> and <em>zh-en</em>.</li>
+  <li><strong>REFERENCE</strong> is the ID of the reference (ref-A or ref-B or ref-C or ref-D for reference-based metrics, and src for reference-free metrics</li>
+  <li><strong>SYSTEM-ID</strong> is the ID of system being scored (given by the part of the filename for the plain text file, uedin-syntax for example).</li>
+  <li><strong>SEGMENT-NUMBER</strong> is the line number starting from 1 of the plain text input files.</li>
+  <li><strong>SYSTEM-SCORE</strong> is the score your metric predicts for the particular system.</li>
+  <li><strong>SEGMENT-SCORE</strong> is the score your metric predicts for the particular segment.</li>
+</ul>
+
+<h4 id="how-to-submit">How to submit:</h4>
+
+<p>This year we will be using <a href="https://codalab.lisn.upsaclay.fr/">Codalab</a> to handle all submissions. We will be providing more details about <a href="https://codalab.lisn.upsaclay.fr/">Codalab</a> soon!</p>
+
+<p>You are allowed to submit multiple metrics, but we need you to indicate the primary metric.</p>
 
 <h2 id="organization">Organization:</h2>
 
 <ul>
-  <li>Markus Freitag, Google Research</li>
-  <li>Ricardo Rei, Unbabel and Instituto Superior Técnico</li>
-  <li>Nitika Mathur, Oracle</li>
-  <li>Chi-kiu (Jackie) Lo, NRC Canada</li>
-  <li>George Foster, Google Research</li>
   <li>Alon Lavie, Unbabel</li>
+  <li>Brian Thompson, Amazon Research</li>
+  <li>Chi-kiu (Jackie) Lo, NRC Canada</li>
   <li>Craig Stewart, Unbabel</li>
-  <li>Tom Kocmi, Microsoft Research</li>
-  <li>Eleftherios Avramidis, German Research Center for Artificial Intelligence (DFKI)</li>
-  <li>Sheila Castilho, ADAPT Centre - Dublin City University</li>
   <li>Dan Deutsch, Google Research</li>
+  <li>Eleftherios Avramidis, German Research Center for Artificial Intelligence (DFKI)</li>
+  <li>George Foster, Google Research</li>
+  <li>Markus Freitag, Google Research</li>
+  <li>Nitika Mathur, Oracle</li>
+  <li>Ricardo Rei, Unbabel, INESC-ID and Instituto Superior Técnico</li>
+  <li>Sheila Castilho, ADAPT Centre - Dublin City University</li>
+  <li>Tom Kocmi, Microsoft Research</li>
 </ul>
 
 <h2 id="sponsors">Sponsors</h2>
