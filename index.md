@@ -103,9 +103,11 @@ You are allowed to submit multiple metrics, but we need you to indicate the prim
 - Alon Lavie, Unbabel
 - Brian Thompson, Amazon Research
 - Chi-kiu (Jackie) Lo, NRC Canada
+- Chryssa Zerva, Instituto de Telecomunicações and Instituto Superior Técnico
 - Craig Stewart, Unbabel
 - Dan Deutsch, Google Research
 - Eleftherios Avramidis, German Research Center for Artificial Intelligence (DFKI)
+- Frédéric Blain, Tilburg University
 - George Foster, Google Research
 - Markus Freitag, Google Research
 - Nitika Mathur, Oracle
