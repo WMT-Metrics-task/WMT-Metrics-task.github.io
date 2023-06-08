@@ -17,18 +17,18 @@ layout: home
 
 ## Important links
 
-[Mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for calculating correlation numbers aka the sacreBLEU for metric developers. You can also dump the most recent test sets.
+[mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for calculating correlation numbers aka the sacreBLEU for metric developers. You can also dump the most recent test sets.
 
 ## Important Dates
 
 |  | Date |
 | ----------- | :-----------: |
-| **System outputs ready to download** | **TBA** |
-| **Submission deadline for metrics task** |  **TBA** |
-| **Paper submission deadline to WMT** | **1th September, 2023** |
-| WMT Notification of acceptance | 6th October, 2023 |
-| WMT Camera-ready deadline | 18th October, 2023 |
-| Conference | 	6th - 7th December, 2023 |
+| **System outputs ready to download** | **10th August, 2022** |
+| **Submission deadline for metrics task** | **17th August, 2022 ❗** |
+| Paper submission deadline to WMT | 5th September, 2022 |
+| WMT Notification of acceptance | 6th October, 2022 |
+| WMT Camera-ready deadline | 18th October, 2022 |
+| Conference | 6th - 7th December, 2022 |
 
 ## Goals
 
@@ -46,13 +46,13 @@ We will provide you with the source sentences, output of machine translation sys
 1. Official results: Correlation with MQM scores at the sentence and system level for the following language pairs:
    - Hebrew-English **(NEW!)**
    - Chinese-English
-   - English-German
+   - English-German **This will be a paragraph-level task!**
 2. Secondary Evaluation: Correlation with official [WMT Human Evaluation](http://www2.statmt.org/wmt23/translation-task.html) at the sentence and system level.
 
 ### Subtasks:
 
 1. [QE as a Metric](./subtasks/qe/): In this subtask participants have to score machine translation systems without access to reference translations
-2. [Challenge Sets [TBA]](./subtasks/challenge/): While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail! 
+2. [Challenge Sets](./subtasks/challenge/): While other participants are worried with building stronger and better metrics, participants of this subtask have to build challengesets that identify where metrics fail! 
 
 
 ## How to participate?
