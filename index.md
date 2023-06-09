@@ -98,6 +98,12 @@ This year we will be using [Codalab](https://codalab.lisn.upsaclay.fr/) to handl
 
 You are allowed to submit multiple metrics, but we need you to indicate the primary metric.
 
+## Training Data
+
+Since data from previous WMT editions might be difficult to navigate we uploaded previous years data to Hugging Face Datasets. You can find DA, MQM and SQM annotations from previous years in the following links: [wmt-da-human-evaluation](RicardoRei/wmt-da-human-evaluation), [wmt-mqm-human-evaluation](RicardoRei/wmt-da-human-evaluation), [wmt-sqm-human-evaluation](RicardoRei/wmt-da-human-evaluation).
+
+If you wish to find the original data please check the [previous editions tab](https://wmt-metrics-task.github.io/subtasks/previous/) and in the results section you can find the original DAs. For MQM you can find the data [here](https://github.com/google/wmt-mqm-human-evaluation)
+
 ## Organization:
 
 - Alon Lavie, Unbabel
