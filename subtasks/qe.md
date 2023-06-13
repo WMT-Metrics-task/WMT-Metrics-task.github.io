@@ -23,11 +23,13 @@ Join us in exploring the fascinating intersection of quality estimation and metr
 
 The dates for the QE as a metric subtask are exactly the same as the main Metrics task.
 
+## Important Dates
+
 |  | Date |
 | ----------- | :-----------: |
-| **System outputs ready to download** | **TBA** |
-| **Submission deadline for metrics task** |  **TBA** |
-| **Paper submission deadline to WMT** | **1th September, 2023** |
+| **System outputs ready to download** | **10th August, 2023** |
+| **Submission deadline for metrics task** | **17th August, 2023 ❗** |
+| Paper submission deadline to WMT | 5th September, 2023 |
 | WMT Notification of acceptance | 6th October, 2023 |
 | WMT Camera-ready deadline | 18th October, 2023 |
-| Conference | 	6th - 7th December, 2023 |
+| Conference | 6th - 7th December, 2023 |
