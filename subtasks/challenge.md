@@ -7,7 +7,7 @@ title: 'Challenge Sets Subtask'
 
 Every year the Metrics shared task has been pushing for better automatic MT metrics and in the last few years we have seen great progress with metrics achieving much higher correlations with human judgements [(Mathur et al., 2020;](https://aclanthology.org/2020.wmt-1.77/) [Freitag et al., 2021;](https://aclanthology.org/2021.wmt-1.73/) [Freitag et al., 2022)](https://aclanthology.org/2022.wmt-1.2/). Yet, while the limitations of metrics such as BLEU are well known in the MT comunity, we still do not know the limitations that new metrics (specially neural ones) might have. For this reason we created the metric challenge sets subtask.
 
-Inspired by the [Build it, Break it: The Language Edition](https://bibinlp.umiacs.umd.edu/sharedtask.html),  participants in the challenge sets subtask (_breakers_) are asked to build challenging examples that target specific phenomena currently not addresses by MT reference-based or reference-less metrics. On top of that we also encourage paper submissions on metrics analysis.
+Inspired by the [Build it, Break it: The Language Edition](https://bibinlp.umiacs.umd.edu/sharedtask.html),  participants in the challenge sets subtask (_breakers_) are asked to build challenging examples that target specific phenomena currently not addressed by MT reference-based or reference-less evaluation metrics. On top of that we also encourage paper submissions on metrics analysis.
 
 Examples of challenge sets developed to test metrics in 2022:
 - [DEMETR: Diagnosing Evaluation Metrics for Translation](https://aclanthology.org/2022.emnlp-main.649.pdf)
