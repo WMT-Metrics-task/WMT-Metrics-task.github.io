@@ -25,7 +25,7 @@ This shared task will have the two following rounds:
 
 ## Registration
 
-Please register your submission with contacts and a short description [here](https://forms.office.com/e/uhA74RnjMb) . 
+Please register your submission with contacts and a short description [here](https://forms.office.com/e/uhA74RnjMb). 
 
 ## Submission format
 
@@ -41,7 +41,10 @@ Further details about formating the segments will be updated later.
 
 ## Submission link
 
-TBA
+Please submit your challenge set(s) [here](https://cloud.dfki.de/owncloud/index.php/s/sRnY89FbZpSPCjJ), after having completed the registration above. 
+
+For naming every chanllenge set file, please choose a short name for your challenge set and name your file in the form "shortname.tsv".
+It is also possible to submit a compressed file/archive. 
 
 ## Important Dates:
 
