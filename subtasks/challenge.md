@@ -43,7 +43,7 @@ Further details about formating the segments will be updated later.
 
 Please submit your challenge set(s) [here](https://cloud.dfki.de/owncloud/index.php/s/sRnY89FbZpSPCjJ), after having completed the registration above. 
 
-For naming every chanllenge set file, please choose a short name for your challenge set and name your file in the form "shortname.tsv".
+For every challenge set file, please use the challenge set name that you mentioned at the registration form, and name the file as "challenge_set_name.tsv".
 It is also possible to submit a compressed file/archive. 
 
 ## Important Dates:
