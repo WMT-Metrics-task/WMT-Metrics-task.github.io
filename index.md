@@ -23,6 +23,7 @@ layout: home
 
 |  | Date |
 | ----------- | :-----------: |
+| Breaking round for [challenge sets](./subtasks/challenge/) | **25th July, 2023** |
 | **System outputs ready to download** | **10th August, 2023** |
 | **Submission deadline for metrics task** | **17th August, 2023 ❗** |
 | Paper submission deadline to WMT | 5th September, 2023 |
