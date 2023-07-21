@@ -50,7 +50,7 @@ It is also possible to submit a compressed file/archive.
 
 |  | Date |
 | ----------- | :-----------: |
-| *Breaking Round* registration & submission deadline | **20th July, 2023 ❗** |
+| *Breaking Round* registration & submission deadline | ~~20th~~ **25th July, 2023 ❗** |
 | *Scoring Round* begins | 10th August, 2023 |
 | *Scoring Round* submission deadline | 17th August, 2023 |
 | *Analysis Round* begins | 24th August, 2023 |
