@@ -25,7 +25,7 @@ This shared task will have the two following rounds:
 
 ## Registration
 
-Please register your submission with contacts and a short description [here](https://forms.office.com/e/uhA74RnjMb) . 
+Please register your submission with contacts and a short description [here](https://forms.office.com/e/uhA74RnjMb). 
 
 ## Submission format
 
@@ -41,13 +41,16 @@ Further details about formating the segments will be updated later.
 
 ## Submission link
 
-TBA
+Please submit your challenge set(s) [here](https://cloud.dfki.de/owncloud/index.php/s/sRnY89FbZpSPCjJ), after having completed the registration above. 
+
+For every challenge set file, please use the challenge set name that you mentioned at the registration form, and name the file as "challenge_set_name.tsv".
+It is also possible to submit a compressed file/archive. 
 
 ## Important Dates:
 
 |  | Date |
 | ----------- | :-----------: |
-| *Breaking Round* registration & submission deadline | **20th July, 2023 ❗** |
+| *Breaking Round* registration & submission deadline | ~~20th~~ **25th July, 2023 ❗** |
 | *Scoring Round* begins | 10th August, 2023 |
 | *Scoring Round* submission deadline | 17th August, 2023 |
 | *Analysis Round* begins | 24th August, 2023 |
