@@ -112,9 +112,9 @@ Primary submissions must include, at minimum, segment-level scores for all offic
 
 **Verify submission:**
 
-After uploading your submission, check that its status (under Submit / View Results) shows Finished and a numerical score appears in the Score column. This can take some time. Use the Results tab to check your correlation scores on the leaderboard. These are correlations with an automatic metric, and will not reflect your final correlations to human MQM scores, nor your true ranking compared to other submissions. However, if they are very low or negative, it could indicate a problem with your scores.
+After uploading your submission, check that its status (under Submit / View Results) shows Finished and a numerical score appears in the Score column. This can take some time. **Use the Results tab to check your correlation scores on the leaderboard. These are correlations with an automatic metric, and will not reflect your final correlations to human MQM scores, nor your true ranking compared to other submissions.However, if they are very low or negative, it could indicate a problem with your scores.** 
 
-If there is a problem uploading your submission, its status will be Failed, and an Error display will show the reasons for the failure. You can get other information from the links under the Error panel. You can also test your submission offline by running the scoring script yourself.
+If there is a problem uploading your submission, its status will be Failed, and an Error display will show the reasons for the failure. You can get other information from the links under the Error panel. You can also test your submission offline by running the [scoring script](https://github.com/google-research/mt-metrics-eval/blob/main/mt_metrics_eval/codalab/eval.py) yourself.
 
 There is currently no way to remove failed submissions or replace existing valid submissions from codalab. To indicate that you do not wish us to use a submission, include DISCARD in its Description field.
 
