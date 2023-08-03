@@ -69,34 +69,53 @@ The output of your software should produce scores for the translations either at
 
 **Output file format for system-level rankings**
 
-The output files for system-level rankings should be called YOURMETRIC.sys.score.gz and formatted as a tab-separated values (TSV) in the following way:
+The output files for system-level scores should be called YOURMETRIC.sys.score and formatted as tab-separated values (TSV) in the following way:
 
-> METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE  
+> METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tREFERENCE\tSYSTEM-ID\tSYSTEM-SCORE 
   
-The output files for segment-level scores should be called YOURMETRIC.seg.score.gz and formatted as a tab-separated values (TSV) in the following way:
+**Output file format for segment-level scores**
+
+The output files for segment-level scores should be called YOURMETRIC.seg.score and formatted as tab-separated values (TSV) in the following way:
 
 > METRIC-NAME\tLANG-PAIR\tTESTSET\tDOMAIN\tDOCUMENT\tREFERENCE\tSYSTEM-ID\tSEGMENT-NUMBER\tSEGMENT-SCORE
 
 Each field should be delimited by a single tab character.
 
 Where:
-
-- **METRIC-NAME** is the name of your automatic evaluation metric.
-- **LANG-PAIR** is the language pair using two letter abbreviations for the languages (de-en for German-English, for example).
-- **TESTSET** is the ID of the test set (newstest2021, florestest2021, tedtalks or challengeset.
-- **DOMAIN** is the domain of a given segment. It can be _conversation_, _ecommerce_, _news_, _social_ or _all_. The domain will only be used for *en-de*, *he-en* and *zh-en*. For those languages we will look at results for individual domains + concatenation of all domain (_all_). For all other language pairs the domain should be _all_.
-- **DOCUMENT** is the ID of the document. As for the the domain, the document information is only relevant for *en-de*, *he-en* and *zh-en*.
-- **REFERENCE** is the ID of the reference (ref-A or ref-B or ref-C or ref-D for reference-based metrics, and src for reference-free metrics
-- **SYSTEM-ID** is the ID of system being scored (given by the part of the filename for the plain text file, uedin-syntax for example).
+- **METRIC-NAME** is the name of your automatic evaluation metric. Please use short descriptive names that don't contain spaces.
+- **LANG-PAIR** is the language pair using two letter abbreviations for the languages (e.g., he-en, zh-en, and en-de for the official language pairs).
+- **TESTSET** is the ID of the test set (e.g., generaltest2023, or challenge*).
+- **DOMAIN** is the domain of a given segment. For he-en, zh-en, and en-de, domain should be one of conversation, ecommerce, news, social or all. For other language pairs, use all. For system-level scores, this field designates the domain that is being scored (all means the whole test set). For segment-level scores, DOMAIN is used for verification purposes only.
+- **DOCUMENT** is the ID of the document. This field is used for verification only.
+- **REFERENCE** is the ID of the reference (refA, refB, etc for reference-based metrics, and src for reference-free metrics).
+- **SYSTEM-ID** is the ID of the system being scored (given by the part of the filename for the plain text file, for example “uedin-syntax”).
 - **SEGMENT-NUMBER** is the line number starting from 1 of the plain text input files.
 - **SYSTEM-SCORE** is the score your metric predicts for the particular system.
 - **SEGMENT-SCORE** is the score your metric predicts for the particular segment.
 
-#### How to submit:
+#### Codalab:
 
-This year we will be using [Codalab](https://codalab.lisn.upsaclay.fr/) to handle all submissions. We will be providing more details about [Codalab](https://codalab.lisn.upsaclay.fr/) soon!
+This year we will be using [Codalab](https://codalab.lisn.upsaclay.fr/) to handle all submissions.
 
-You are allowed to submit multiple metrics, but we need you to indicate the primary metric.
+Create a zip archive containing YOURMETRIC.sys.score and/or YOURMETRIC.seg.score, and upload it using the Submit / View Results tab under Participate. Fill in the meta-information for your team and metric, as prompted.
+
+Each submission should contain scores for only one metric. The official metric name is the one that appears in the METRIC-NAME field in the score files.
+
+Reference-free (aka QE) metrics must have `src` in the REFERENCE field; if a metric is reference free, it must be reference-free for both system- and segment-level scores.
+
+If your submission contains only segment-level scores, we will fill in system-level scores by averaging.
+
+You can make multiple submissions. Each new submission must have a different metric name, and one submission must be designated as primary. Only this submission will participate in the official evaluation (final metric ranking). To designate a submission as primary, include PRIMARY in the Description field. You can update this field to change your primary submission at any time before the evaluation ends.
+
+Primary submissions must include, at minimum, segment-level scores for all official language pairs (Hebrew-English, Chinese-English, English-German). 
+
+**Verify submission:**
+
+After uploading your submission, check that its status (under Submit / View Results) shows Finished and a numerical score appears in the Score column. This can take some time. Use the Results tab to check your correlation scores on the leaderboard. These are correlations with an automatic metric, and will not reflect your final correlations to human MQM scores, nor your true ranking compared to other submissions. However, if they are very low or negative, it could indicate a problem with your scores.
+
+If there is a problem uploading your submission, its status will be Failed, and an Error display will show the reasons for the failure. You can get other information from the links under the Error panel. You can also test your submission offline by running the scoring script yourself.
+
+There is currently no way to remove failed submissions or replace existing valid submissions from codalab. To indicate that you do not wish us to use a submission, include DISCARD in its Description field.
 
 ## Training Data
 
