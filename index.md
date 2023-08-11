@@ -15,9 +15,26 @@ layout: home
   Have questions or suggestions? Feel free to <a href="mailto:wmt-metrics@googlegroups.com">Contact Us</a>!
 </p>
 
+## NEW: Metric inputs and Codalab release:
+
+1. Register your metric [here](https://forms.gle/UTBen7EBRJaMFttK6), if you haven't already
+2. Create an account on Codalab. 
+    - You're allowed one primary submission for a reference-based metric, and one primary submission for a reference-free metric. If you are submitting two metrics that have **widely different approaches**, for example, one LLM-based metric and one lexical metric, then create 2 accounts on Codalab.
+
+3. Download the data ([link](https://drive.google.com/file/d/1oRrZI9nrM3739tdq0PDYaYOr94X2PIgQ/view?usp=sharing); link also available on Codalab)
+4. Prepare your scores: 
+    - Please follow the guidelines on submission format as described bellow. The metric inputs download includes sample metrics as well as helper scripts to prepare your scores.
+5. Submit your scores via [Codalab]((https://codalab.lisn.upsaclay.fr/competitions/15074)):
+    - When you submit your metric, Codalab might require some time to process your  submission. We’ve noticed processing times between a few minutes and two hours when testing. Codalab does keep track of the submission time, so don’t panic if your last minute submission wasn’t processed before the deadline! Please contact us if it has been longer than 3 hours.
+    - After uploading your submission, check its status (under Submit / View Results). It will return an error if there’s an issue with submission, such as formatting issues
+
+Deadline for submissions is **17th August, 2023 ❗**. Please check the dates bellow.
+
 ## Important links
 
 [mt-metrics-eval](https://github.com/google-research/mt-metrics-eval): the tool for calculating correlation numbers aka the sacreBLEU for metric developers. You can also dump the most recent test sets.
+
+[**NEW**: Codalab submission platform](https://codalab.lisn.upsaclay.fr/competitions/15074)
 
 ## Important Dates
 
